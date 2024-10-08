@@ -387,7 +387,7 @@ p {
 
 
 /*===========================
-  NAVBAR css 
+  NAVBAR css
 ===========================*/
 .navbar-toggler:focus {
   box-shadow: none;
@@ -999,43 +999,43 @@ p {
 }
 
 /*===========================
-  about-05 css
+  about css
 ===========================*/
-.about-five {
+.about-plakar {
   background-color: var(--light-3);
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-five {
-    padding-top: 100px;
-    padding-bottom:70px;
+  .about-plakar {
+    padding-top: 40px;
+    padding-bottom:40px;
   }
 }
 @media (max-width: 767px) {
-  .about-five {
-    padding-top: 80px;
-    padding-bottom:60px;
+  .about-plakar {
+    padding-top: 20px;
+    padding-bottom:30px;
   }
 }
-.about-five-content{
+.about-plakar-content{
   padding-left: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-five-content {
+  .about-plakar-content {
     padding-left: 0;
   }
 }
 @media (max-width: 767px) {
-  .about-five-content {
+  .about-plakar-content {
     padding-left: 0;
   }
 }
-.about-five-content .small-title {
+.about-plakar-content .small-title {
   position: relative;
   padding-left: 30px;
 }
-.about-five-content .small-title::before {
+.about-plakar-content .small-title::before {
   position: absolute;
   content: "";
   left: 0;
@@ -1045,22 +1045,22 @@ p {
   width: 20px;
   margin-top: -1px;
 }
-.about-five-content .main-title {
+.about-plakar-content .main-title {
   margin-top: 20px;
 }
-.about-five-content .about-five-tab {
+.about-plakar-content .about-plakar-tab {
   margin-top: 40px;
 }
-.about-five-content .about-five-tab nav {
+.about-plakar-content .about-plakar-tab nav {
   border: none;
   background-color: var(--light-1);
   padding: 15px;
   border-radius: 5px;
 }
-.about-five-content .about-five-tab nav .nav-tabs {
+.about-plakar-content .about-plakar-tab nav .nav-tabs {
   border: none;
 }
-.about-five-content .about-five-tab nav button {
+.about-plakar-content .about-plakar-tab nav button {
   border: none;
   color: var(--dark-1);
   font-weight: 600;
@@ -1073,83 +1073,98 @@ p {
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
-  .about-five-content .about-five-tab nav button {
+  .about-plakar-content .about-plakar-tab nav button {
     margin: 0;
     margin-bottom: 10px;
     width: 100%;
   }
-  .about-five-content .about-five-tab nav button:last-child {
+  .about-plakar-content .about-plakar-tab nav button:last-child {
     margin: 0;
   }
 }
-.about-five-content .about-five-tab nav button:hover {
+.about-plakar-content .about-plakar-tab nav button:hover {
   color: var(--primary);
 }
-.about-five-content .about-five-tab nav button.active {
+.about-plakar-content .about-plakar-tab nav button.active {
   background-color: var(--primary);
   color: var(--white);
 }
-.about-five-content .about-five-tab nav button:last-child {
+.about-plakar-content .about-plakar-tab nav button:last-child {
   margin-right: 0;
 }
-.about-five-content .about-five-tab .tab-content {
+.about-plakar-content .about-plakar-tab .tab-content {
   border: none;
   padding-top: 30px;
 }
-.about-five-content .about-five-tab .tab-content p {
+.about-plakar-content .about-plakar-tab .tab-content p {
   margin-bottom: 20px;
 }
-.about-five-content .about-five-tab .tab-content p:last-child {
+.about-plakar-content .about-plakar-tab .tab-content p:last-child {
   margin: 0;
 }
 
-.about-image-five {
+.about-image-plakar {
+  margin-top: 30px;
   padding-left: 60px;
   position: relative;
   z-index: 2;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-image-five {
+  .about-image-plakar {
     margin-bottom: 70px;
     padding-left: 30px;
   }
 }
 @media (max-width: 767px) {
-  .about-image-five {
+  .about-image-plakar {
     margin-bottom: 60px;
     padding-left: 0;
   }
 }
-.about-image-five .shape {
+.about-image-plakar .shape {
   position: absolute;
   left: 30px;
   top: -30px;
   z-index: -1;
 }
+
+.about-image-plakar.right .shape {
+  right: -30px;
+  left: auto;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-image-five .shape {
+  .about-image-plakar .shape {
     left: 0;
+  }
+  .about-image-plakar.right .shape {
+    right: 0;
+    left: auto;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-image-five::before {
+  .about-image-plakar::before {
     right: -15px;
     bottom: -15px;
   }
 }
 @media (max-width: 767px) {
-  .about-image-five::before {
+  .about-image-plakar::before {
+    display: none;
+  }
+  .about-image-plakar.right .shape {
     display: none;
   }
 }
-.about-image-five img {
+.about-image-plakar img {
   width: 100%;
   z-index: 2;
 }
 
 
 /*===========================
-  services css 
+  services css
 ===========================*/
 .services-eight {
   padding: 100px 0;
@@ -1636,7 +1651,7 @@ p {
 
 
 /*===========================
-  teams css 
+  teams css
 ===========================*/
 .team-area {
   padding: 100px 0;
