@@ -1855,7 +1855,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: url("assets/images/call-action/overlay.png");
+  background-image: url("/assets/images/call-action/overlay.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
