@@ -995,6 +995,10 @@ p {
   color: var(--primary);
 }
 
+.first-section {
+  padding-top: 120px;
+}
+
 /*===========================
   about css
 ===========================*/
